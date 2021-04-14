@@ -1,0 +1,27 @@
+.nav-button {
+  width: 50px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-button.disabled {
+  cursor: unset;
+}
+
+.nav-button > img {
+  width: 30px;
+  object-fit: cover;
+}
+
+.nav-left {
+  left: 0;
+}
+
+.nav-right {
+  right: 0;
+}
